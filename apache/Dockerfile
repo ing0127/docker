@@ -2,6 +2,7 @@ FROM php:8.2-apache
 
 ENV PHP_MEMORY_LIMIT=256M
 
+
 RUN set -ex; \
 	\
 	savedAptMark="$(apt-mark showmanual)"; \
