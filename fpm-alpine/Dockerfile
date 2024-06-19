@@ -2,6 +2,7 @@ FROM php:8.2-fpm-alpine
 
 ENV PHP_MEMORY_LIMIT=256M
 
+
 RUN set -ex; \
 	\
 	apk add --no-cache --virtual .build-deps \
